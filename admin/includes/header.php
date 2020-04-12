@@ -2,7 +2,7 @@
 <?php require_once("init.php"); ?>
 <?php
 
-if (!$session->is_signed_in()) {redirect("login.php");}
+//if (!$session->is_signed_in()) {redirect("login.php");}
 
 ?>
 
@@ -19,7 +19,7 @@ if (!$session->is_signed_in()) {redirect("login.php");}
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin - Bootstrap Admin Template</title>
+    <title>PurePHP</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">

@@ -2,21 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cb250c8-a13e-41c5-9dee-07e3c1ba3e70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/admin/includes/functions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/includes/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/includes/session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/includes/message.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/logout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic_files/upload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helpers/generalHelper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/purePHP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/purePHP.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/includes/admin_content.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/admin_content.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/database.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/includes/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/init.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/session.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/session.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/top_nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/top_nav.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/includes/user.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/user.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/test.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
     </execution>
@@ -51,8 +71,23 @@
     </expand>
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="purePHP" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\xampp\htdocs\purePHP\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
   </component>
   <component name="ProjectId" id="1X9yFT0Eehq84Npi94cW1jzf6zC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -64,6 +99,7 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -102,6 +138,24 @@
       <workItem from="1582185929460" duration="11496000" />
       <workItem from="1582445420678" duration="6736000" />
       <workItem from="1582531890895" duration="7705000" />
+      <workItem from="1582618654323" duration="14523000" />
+      <workItem from="1582977731206" duration="5999000" />
+      <workItem from="1583046640560" duration="1223000" />
+      <workItem from="1583055758255" duration="619000" />
+      <workItem from="1583061064927" duration="2187000" />
+      <workItem from="1583067901803" duration="9431000" />
+      <workItem from="1583221353213" duration="8906000" />
+      <workItem from="1583248610044" duration="193000" />
+      <workItem from="1583653392643" duration="7710000" />
+      <workItem from="1583758086328" duration="3424000" />
+      <workItem from="1583827780233" duration="3440000" />
+      <workItem from="1583833345061" duration="7839000" />
+      <workItem from="1584112151788" duration="4673000" />
+      <workItem from="1584214104363" duration="1769000" />
+      <workItem from="1584277206403" duration="2541000" />
+      <workItem from="1584525134230" duration="3531000" />
+      <workItem from="1584553432279" duration="3663000" />
+      <workItem from="1584860232363" duration="264000" />
     </task>
     <servers />
   </component>
@@ -113,19 +167,37 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2472" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582021823037" />
-    <state x="2606" y="212" key="FileChooserDialogImpl" timestamp="1582545791113">
+    <state x="2645" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582623705211">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2606" y="212" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582545791113" />
-    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1580483051098" />
-    <state x="2981" y="299" key="com.intellij.ide.util.TipDialog" timestamp="1582096737366">
+    <state x="2645" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582623705211" />
+    <state x="2610" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1583841586471">
       <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2610" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583841586471" />
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1584860497515">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="2606" y="212" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584344456965" />
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1584860497515" />
+    <state x="2678" y="335" key="NewPhpClassDialog" timestamp="1583841579597">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2678" y="335" key="NewPhpClassDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583841579597" />
+    <state x="849" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1584860314523">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="849" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1580628435026" />
-    <state x="2981" y="299" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582096737366" />
-    <state x="2576" y="252" width="608" height="536" key="find.popup" timestamp="1582033576090">
+    <state x="2981" y="299" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583758389201" />
+    <state x="849" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1584860314523" />
+    <state x="2576" y="252" width="608" height="536" key="find.popup" timestamp="1583755474884">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2576" y="252" width="608" height="536" key="find.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582033576090" />
+    <state x="2576" y="252" width="608" height="536" key="find.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583755474884" />
+    <state x="525" y="200" width="611" height="536" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1582979155024" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1583760496335">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583760496335" />
   </component>
 </project>
