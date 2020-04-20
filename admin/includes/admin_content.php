@@ -10,12 +10,31 @@
 
             <?php
 
-      $user = User::find_user_by_id(6);
-      $user->username = "asd";
-      $user->password = "asd";
-      $user->first_name = "asd";
-      $user->last_name = "asd";
-      $user->update();
+//      $user = User::find_user_by_id(6);
+//      $user->username = "asd";
+//      $user->password = "asd";
+//      $user->first_name = "asd";
+//      $user->last_name = "asd";
+//      $user->update();
+
+//        $user = new User();
+//        $user->username = "NEW USER";
+//        $user->save();
+
+//            $photos = Photo::find_all();
+//            foreach ($photos as $photo)
+//            {
+//                echo $photo->title;
+//                echo "<br>";
+//            }
+//            $photo = new Photo();
+//            $photo->title = 'test title';
+//            $photo->description = 'des test';
+//            $photo->type = 'image.png';
+//            $photo->size = '54';
+//            $photo->create();
+
+            echo INCLUDES_PATH;
 
                ?>
             <ol class="breadcrumb">
