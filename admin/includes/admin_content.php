@@ -34,7 +34,10 @@
 //            $photo->size = '54';
 //            $photo->create();
 
-            echo INCLUDES_PATH;
+         //   echo INCLUDES_PATH;
+
+            $user = Photo::find_by_id(1);
+            echo $user->title;
 
                ?>
             <ol class="breadcrumb">

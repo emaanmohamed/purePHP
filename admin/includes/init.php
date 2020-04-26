@@ -1,7 +1,7 @@
 <?php
 
 defined('DS') ? null : define('DS', DIRECTORY_SEPARATOR);
-define('SITE_ROOT','c:'. DS . 'xampp' . DS . 'htdocs' . DS . 'purePHP' );
+define('SITE_ROOT','C:'. DS . 'xampp' . DS . 'htdocs' . DS . 'purePHP' );
 defined('INCLUDES_PATH') ? null : define('INCLUDES_PATH', SITE_ROOT.DS.'admin'.DS.'includes');
 
 require_once ("functions.php");
