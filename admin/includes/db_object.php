@@ -115,8 +115,8 @@ class Db_object
     {
         global $database;
 
-        $sql = "DELETE FROM photos ";
-        $sql .= "WHERE id=".$database->escape_string($this->id);
+        $sql = "DELETE FROM " . static::$db_table;
+        $sql .= " WHERE id=".$database->escape_string($this->id);
         $sql .= " LIMIT 1";
         $database->query($sql);
 

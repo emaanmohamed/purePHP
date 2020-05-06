@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cb250c8-a13e-41c5-9dee-07e3c1ba3e70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/admin/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/add_user.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/delete_user.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/edit_photo.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/edit_photo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/includes/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/admin_content.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/admin_content.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/db_object.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/db_object.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/user.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/user.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/photos.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/photos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/users.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/users.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +148,8 @@
       <workItem from="1587654892332" duration="5950000" />
       <workItem from="1587728514085" duration="19566000" />
       <workItem from="1587899151937" duration="769000" />
-      <workItem from="1588515614334" duration="4027000" />
+      <workItem from="1588515614334" duration="7519000" />
+      <workItem from="1588725583047" duration="10366000" />
     </task>
     <servers />
   </component>
@@ -164,15 +169,15 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2610" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583841586471" />
-    <state x="427" y="0" key="CommitChangelistDialog2" timestamp="1587737493717">
+    <state x="427" y="0" key="CommitChangelistDialog2" timestamp="1588773910251">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="427" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1587737493717" />
-    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1587901396929">
+    <state x="427" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1588773910251" />
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1588587501766">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="2606" y="212" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584344456965" />
-    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587901396929" />
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1588587501766" />
     <state x="2678" y="335" key="NewPhpClassDialog" timestamp="1583841579597">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -183,19 +188,19 @@
     <state x="849" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1580628435026" />
     <state x="2981" y="299" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583758389201" />
     <state x="849" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1587899257482" />
-    <state x="525" y="200" width="611" height="536" key="find.popup" timestamp="1588516307107">
+    <state x="525" y="200" width="611" height="536" key="find.popup" timestamp="1588776985024">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="2576" y="252" width="608" height="536" key="find.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583755474884" />
-    <state x="525" y="200" width="611" height="536" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1588516307107" />
+    <state x="525" y="200" width="611" height="536" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1588776985024" />
     <state x="848" y="180" key="run.anything.popup" timestamp="1587732944286">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="848" y="180" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1587732944286" />
-    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup" timestamp="1587808341024">
+    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup" timestamp="1588725689039">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583760496335" />
-    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1587808341024" />
+    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1588725689039" />
   </component>
 </project>

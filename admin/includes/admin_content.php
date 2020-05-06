@@ -36,8 +36,7 @@
 
          //   echo INCLUDES_PATH;
 
-            $user = Photo::find_by_id(1);
-            echo $user->title;
+
 
                ?>
             <ol class="breadcrumb">
