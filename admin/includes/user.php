@@ -39,23 +39,20 @@ class User extends Db_object
         } else {
 
             $this->user_image = basename($file['name']);
-            $this->tmp_path = basename($file['tmp_name']);
-            $this->type     = basename($file['type']);
-            $this->size     = basename($file['size']);
+            $this->tmp_path   = basename($file['tmp_name']);
+            $this->type       = basename($file['type']);
+            $this->size       = basename($file['size']);
 
         }
     }
 
 
-    public function save_user_and_image()
+    public function upload_photo()
     {
-        if ($this->id) {
-            $this->update();
-        } else {
-            if (!empty($this->errors)) {
-                return false;
-            }
+        if (!empty($this->errors)) {
+            return false;
         }
+
         if (empty($this->user_image) || empty($this->tmp_path)) {
             $this->errors[] = "the file was not available";
             return false;
@@ -67,7 +64,6 @@ class User extends Db_object
             return false;
         }
 
-        $this->create();
 
         //  if (move_uploaded_file($this->tmp_path, $target_path)) {
 
@@ -85,18 +81,20 @@ class User extends Db_object
     }
 
 
+    public function image_path_and_placeholder()
+    {
 
-    public function image_path_and_placeholder(){
         return empty($this->user_image) ? $this->image_placeholder : $this->upload_directory.DS.$this->user_image;
     }
 
-    public static function verify_user($username, $password) {
+    public static function verify_user($username, $password)
+    {
         global $database;
 
         $username = $database->escape_string($username);
         $password = $database->escape_string($password);
 
-        $sql = "SELECT * FROM ". self::$db_table . " WHERE ";
+        $sql = "SELECT * FROM ".self::$db_table." WHERE ";
         $sql .= "username = '{$username}' AND ";
         $sql .= "password = '{$password}' ";
         $sql .= "LIMIT 1";
@@ -105,13 +103,15 @@ class User extends Db_object
         return !empty($the_result_array) ? array_shift($the_result_array) : false;
     }
 
-    public function save() {
+    public function save()
+    {
 
         return isset($this->id) ? $this->update() : $this->create();
     }
 
-    public function delete_user(){
-        if ($this->delete()){
+    public function delete_user()
+    {
+        if ($this->delete()) {
 
         }
     }

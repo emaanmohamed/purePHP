@@ -1,7 +1,5 @@
 <?php include("includes/header.php"); ?>
-<?php if (!$session->is_signed_in()) {
-    redirect("login.php");
-} ?>
+<?php if (!$session->is_signed_in()) { redirect("login.php");} ?>
 
 <?php
 
@@ -28,7 +26,6 @@ $users = User::find_all();
                         Users
                     </h1>
                     <a href="add_user.php" class="btn btn-primary">Add User</a>
-
                     <div class="col-md-12">
                         <table class="table table-hover">
                             <thead>
