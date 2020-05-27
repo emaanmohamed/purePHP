@@ -17,14 +17,14 @@ class Db_object
 
     );
 
-    protected static $db_table = "users";
+   // protected static $db_table = "users";
 
     public static function find_all()
     {
         return static::find_by_query("SELECT * FROM ".static::$db_table." ");
     }
 
-    public static function find_by_id($id)
+    public function find_by_id($id)
     {
         global $database;
         $the_result_array = static::find_by_query("SELECT * FROM  ".static::$db_table." WHERE id = $id LIMIT 1");
@@ -125,6 +125,13 @@ class Db_object
 
     }
 
+
+    public function save()
+    {
+
+        return isset($this->id) ? $this->update() : $this->create();
+    }
+
     public function delete()
     {
         global $database;
@@ -134,6 +141,14 @@ class Db_object
         $sql .= " LIMIT 1";
         $database->query($sql);
 
+    }
+
+    public static function count_all() {
+        global $database;
+        $sql = "SELECT COUNT(*) FROM " . static::$db_table;
+        $result_set = $database->query($sql);
+        $row = mysqli_fetch_array($result_set);
+        return array_shift($row);
     }
 
 
