@@ -7,7 +7,12 @@ $items_per_page = 4;
 
 $items_total_count = Photo::count_all();
 
-$photos = Photo::find_all();
+//$photos = Photo::find_all();
+$paginate = new Paginate($page, $items_per_page, $items_total_count);
+$sql = "SELECT * FROM photos ";
+$sql .= "LIMIT {$items_per_page} ";
+$sql .= "OFFSET {$paginate->offset()} ";
+$photos = Photo::find_by_query($sql);
 
 ?>
 
@@ -28,7 +33,26 @@ $photos = Photo::find_all();
         <?php endforeach; ?>
 
     </div>
+<div class="row">
+    <ul class="pager">
+        <?php
+            if ($paginate->page_total() > 1) {
+                if ($paginate->has_next()) {
+                  echo  "<li class='next'><a href='index.php?page={$paginate->next()}'>Next</a></li>";
 
+                }
+                if ($paginate->has_previous()) {
+                    echo  "<li class='previous'><a href='index.php?page={$paginate->previous()}'>Previous</a></li>";
+
+                }
+
+            }
+
+        ?>
+
+    </ul>
+
+</div>
 
 
 </div>
