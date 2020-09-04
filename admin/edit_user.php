@@ -1,4 +1,5 @@
 <?php include("includes/header.php"); ?>
+<?php include ("includes/photo_library_modal.php"); ?>
 <?php if (!$session->is_signed_in()) {
     redirect("login.php");
 } ?>
@@ -40,6 +41,8 @@ if (isset($_POST['update'])) {
 
 
 ?>
+
+
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -63,7 +66,7 @@ if (isset($_POST['update'])) {
                     </h1>
 
                     <div class="col-md-6">
-                        <img class="img-responsive" src="<?php echo $user->image_path_and_placeholder(); ?>" alt="">
+                        <a href="#" data-toggle="modal" data-target="#photo-library"><img class="img-responsive" src="<?php echo $user->image_path_and_placeholder(); ?>" alt=""></a>
 
                     </div>
 
